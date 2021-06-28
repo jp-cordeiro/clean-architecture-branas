@@ -6,7 +6,8 @@
   "scripts": {
     "tsc:init": "tsc --init",
     "tsc:build": "tsc",
-    "test": "jest --passWithNoTests --watchAll"
+    "test": "jest --passWithNoTests --watchAll",
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,9 @@
     "typescript": "^4.3.4"
   },
   "devDependencies": {
+    "git-commit-msg-linter": "^3.2.6",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.3"
   }
