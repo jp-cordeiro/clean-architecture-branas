@@ -1,0 +1,23 @@
+{
+  "name": "clean-architecture-branas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "tsc:build": "tsc",
+    "test": "jest --passWithNoTests --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.5",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3"
+  }
+}
